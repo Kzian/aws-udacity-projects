@@ -1,0 +1,6 @@
+you> What is your return policy?
+bot> According to the FAQ, you can return most items within 30 days of delivery as long as they're unused and in original packaging (unless the item arrived defective).
+you> Do you offer a student discount?
+bot> I'm sorry, I can't help with that here. Please call our support line at 1-800-555-0199 (Mon-Fri).
+you> Can I speak to a manager about a job opportunity?
+bot> I'm sorry, I can't help with that here. Please call our support line at 1-800-555-0199 (Mon-Fri).

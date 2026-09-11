@@ -1,0 +1,13 @@
+you> The checkout page crashes when I click the Pay button.
+bot> I'm sorry to hear that. Could you tell me the exact steps you took that led to the crash?
+
+you> I opened the checkout page, selected my items, entered my payment details, and clicked the Pay button. The page then crashed.
+bot> Thanks. What browser, operating system, or device were you using when this happened?
+
+you> Chrome
+bot> Thanks. What operating system or device are you using?
+
+you> Windows 11
+bot> [tool call] bugreports___create_bug_report
+
+Thank you for reporting the issue. Your ticket ID is 14c622b8-c11d-41c5-9ccb-82e9fa8bb26e and the team will follow up.
