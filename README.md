@@ -24,7 +24,7 @@ Includes real debugging history: fixing premature/fabricated tool calls, a Nova 
 
 # B
 
-### AI Customer Support Agent (Amazon Bedrock AgentCore)(./ai-support-agent-agentcore)
+### [AI Customer Support Agent (Amazon Bedrock AgentCore)](./ai-support-agent-agentcore)
 
 An e-commerce support agent built on AgentCore. It handles order tracking,
 refunds, product questions, loyalty discounts and web lookups, and remembers
