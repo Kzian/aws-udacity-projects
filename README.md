@@ -64,4 +64,19 @@ The committed file contains placeholders for the first three.
   should use JWT or IAM authentication.
 - All AWS resources were deleted after completion.
 
-*More projects will be added here as the program progresses.*
+# C
+
+### [Multi-Agent Customer Support (Amazon Bedrock AgentCore)](./multi-agent-customer-support-agentcore)
+
+A multi-agent support system for the fictional retailer NovaMart, built with Strands Agents and deployed on AgentCore Runtime. An orchestrator routes each request to Inventory, Refund, Policy and Communication agents that share state through DynamoDB with optimistic locking.
+
+## Capabilities
+| Capability | Implementation |
+|---|---|
+| Orchestration | Claude Haiku 4.5 router, sequential tool calls, Communication agent always last |
+| Policy RAG | Three Bedrock Knowledge Bases (S3 Vectors) queried in parallel |
+| Guardrails | Topic, content, PII and word policies, numbered version |
+| Memory | AgentCore Memory, session summaries, 7-day retention |
+| Observability | CloudWatch Logs and X-Ray Service Map |
+
+Automated suite: **120/120**. All AWS resources were deleted after completion.
